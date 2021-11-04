@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 const Service = ({ service }) => {
     const { name, description, img } = service;
     return (
-        <Grid item xs={2} sm={4} md={4}>
+        <Grid item xs={13} sm={4} md={4}>
             <Card sx={{ minWidth: 275, boxShadow: 0, m: 0 }}>
                 <CardMedia
                     component="img"
