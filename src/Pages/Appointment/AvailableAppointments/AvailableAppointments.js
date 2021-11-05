@@ -42,7 +42,7 @@ const AvailableAppointments = ({ date }) => {
         },
     ]
     return (
-        <Container>
+        <Container sx={{ my: 7 }}>
             <Typography variant="h4" sx={{ py: 3 }}>Available Appointments {date.toDateString()}</Typography>
             <Grid container spacing={2}>
                 {
